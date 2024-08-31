@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "hearthwell:myst_dust_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "recipe_myst_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hearthwell:myst_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "recipe_myst_dust",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "hearthwell:myst_dust_block"
+    ]
+  }
+}
