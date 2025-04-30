@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"5": "templeGroundsGateSmall_Y_base"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 8, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [817, 0, 111]},
+			"faces": {
+				"north": {"uv": [0, 6, 4, 8], "texture": "#5"},
+				"east": {"uv": [0, 10, 4, 12], "texture": "#5"},
+				"south": {"uv": [0, 8, 4, 10], "texture": "#5"},
+				"west": {"uv": [0, 12, 4, 14], "texture": "#5"},
+				"up": {"uv": [8, 10, 4, 6], "texture": "#5"},
+				"down": {"uv": [8, 10, 4, 14], "texture": "#5"}
+			}
+		}
+	]
+}
